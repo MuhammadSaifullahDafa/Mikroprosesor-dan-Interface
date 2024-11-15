@@ -1,0 +1,153 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Halaman-1" id="MrTTNyvfTavsLdXu2crp">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-2" value="Inisialisasi Serial, SPI, dan RFID" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="675" y="118" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-3" value="Looping" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="746" y="234" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-4" value="Apakah Ada Kartu Baru?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="258" y="411" width="219" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-5" value="Apakah Kartu Bisa Dibaca?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="332" y="702" width="238" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-6" value="Tampilkan UID Kartu di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="339" y="1012" width="225" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-7" value="Apakah UID cocok dengan denyUID?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1128" width="251" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-8" value="Tampilkan Status: DENY di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1774" width="248" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-9" value="Apakah UID cocok dengan allowUID?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="478" y="1451" width="251" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-10" value="Tampilkan Status: ALLOW di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318" y="1774" width="260" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-11" value="Tampilkan Status: UNKNOWN di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="629" y="1774" width="258" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-12" value="Hentikan Komunikasi dengan Kartu" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="499" y="1890" width="209" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-29" target="U30RhUWKz8AdQYL8EQ7l-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="797.5294117647059" y="68" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-2" target="U30RhUWKz8AdQYL8EQ7l-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.43;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-3" target="U30RhUWKz8AdQYL8EQ7l-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="347" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-16" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.29;entryX=0.03;entryY=1;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-4" target="U30RhUWKz8AdQYL8EQ7l-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="714" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-17" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.23;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-4" target="U30RhUWKz8AdQYL8EQ7l-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="666" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-18" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.29;entryX=0.62;entryY=1;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-5" target="U30RhUWKz8AdQYL8EQ7l-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="819" y="666" />
+              <mxPoint x="819" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-19" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-5" target="U30RhUWKz8AdQYL8EQ7l-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-6" target="U30RhUWKz8AdQYL8EQ7l-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-21" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-7" target="U30RhUWKz8AdQYL8EQ7l-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="144" y="1415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-22" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-7" target="U30RhUWKz8AdQYL8EQ7l-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="603" y="1415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-23" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.02;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-9" target="U30RhUWKz8AdQYL8EQ7l-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449" y="1738" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-24" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-9" target="U30RhUWKz8AdQYL8EQ7l-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="758" y="1738" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.3;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-8" target="U30RhUWKz8AdQYL8EQ7l-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="144" y="1865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.08;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-10" target="U30RhUWKz8AdQYL8EQ7l-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449" y="1865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.92;entryY=0;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-11" target="U30RhUWKz8AdQYL8EQ7l-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="758" y="1865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.22;entryX=1;entryY=0.86;rounded=0;" edge="1" parent="1" source="U30RhUWKz8AdQYL8EQ7l-12" target="U30RhUWKz8AdQYL8EQ7l-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="922" y="1865" />
+              <mxPoint x="922" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U30RhUWKz8AdQYL8EQ7l-29" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737" y="10" width="122" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

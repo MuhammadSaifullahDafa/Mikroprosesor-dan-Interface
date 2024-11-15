@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Halaman-1" id="ZrN6D6l1vnd6U8ZhIcib">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-2" value="Inisialisasi Serial, SPI, RFID, LCD, dan LED" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="259" y="118" width="258" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-3" value="Looping" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="336" y="234" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-4" value="Apakah Ada Kartu yang Tersedia?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="411" width="231" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-5" value="Apakah Kartu Bisa Dibaca?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="103" y="714" width="238" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-6" value="Membaca UID dari Kartu" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1024" width="234" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-7" value="Apakah UID cocok dengan allowedUID?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="97" y="1123" width="251" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-8" value="Tampilkan Access: ALLOW di LCD" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1538" width="245" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-9" value="Nyalakan LED selama 3 detik" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1768" width="224" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-10" value="Apakah UID cocok dengan deniedUID?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="508" y="1446" width="251" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-11" value="Tampilkan Access: DENY di LCD" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="508" y="1768" width="251" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-12" value="LED berkedip selama 3 detik" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="602" y="1884" width="222" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-13" value="Tampilkan Access: UNKNOWN di LCD" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="828" y="1768" width="190" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-14" value="LED tetap mati" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1893" width="167" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-33" target="hULHNE1ib5PGKcsbHpeh-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="388.5" y="68" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-2" target="hULHNE1ib5PGKcsbHpeh-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.66;entryX=0.43;entryY=0;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-3" target="hULHNE1ib5PGKcsbHpeh-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-18" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=0;entryX=0;entryY=0.74;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-4" target="hULHNE1ib5PGKcsbHpeh-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-19" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.22;entryY=0;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-4" target="hULHNE1ib5PGKcsbHpeh-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="136" y="678" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-20" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0;entryX=0.05;entryY=1;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-5" target="hULHNE1ib5PGKcsbHpeh-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="678" />
+              <mxPoint x="308" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-21" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-5" target="hULHNE1ib5PGKcsbHpeh-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-6" target="hULHNE1ib5PGKcsbHpeh-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-23" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-7" target="hULHNE1ib5PGKcsbHpeh-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.33;entryY=0.01;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-8" target="hULHNE1ib5PGKcsbHpeh-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="1732" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0.01;entryX=0.62;entryY=1;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-9" target="hULHNE1ib5PGKcsbHpeh-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="409" y="1732" />
+              <mxPoint x="409" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-26" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-7" target="hULHNE1ib5PGKcsbHpeh-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="633" y="1409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-27" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-10" target="hULHNE1ib5PGKcsbHpeh-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.3;entryY=0.01;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-11" target="hULHNE1ib5PGKcsbHpeh-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="633" y="1859" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=0.01;entryX=1;entryY=0.61;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-12" target="hULHNE1ib5PGKcsbHpeh-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="793" y="1859" />
+              <mxPoint x="793" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-30" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.77;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-10" target="hULHNE1ib5PGKcsbHpeh-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="923" y="1732" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.34;entryY=0.01;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-13" target="hULHNE1ib5PGKcsbHpeh-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="923" y="1859" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=0.01;entryX=1;entryY=0.57;rounded=0;" edge="1" parent="1" source="hULHNE1ib5PGKcsbHpeh-14" target="hULHNE1ib5PGKcsbHpeh-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1053" y="1859" />
+              <mxPoint x="1053" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hULHNE1ib5PGKcsbHpeh-33" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
