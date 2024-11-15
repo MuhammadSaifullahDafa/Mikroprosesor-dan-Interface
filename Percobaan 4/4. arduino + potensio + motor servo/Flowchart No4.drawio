@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Halaman-1" id="Nqwx40COQLw3nIZHW6Uc">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-2" value="Inisialisasi Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="112" y="118" width="238" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-3" value="Baca nilai dari potensiometer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="148" y="217" width="165" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-4" value="Konversi nilai potensiometer ke tegangan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="21" y="333" width="256" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-5" value="Tampilkan nilai tegangan di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="449" width="258" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-6" value="Tambahkan jeda 100 ms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="114" y="565" width="232" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kuulfgaWN_b0VWVnqC5t-13" target="kuulfgaWN_b0VWVnqC5t-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="230.5" y="68" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kuulfgaWN_b0VWVnqC5t-2" target="kuulfgaWN_b0VWVnqC5t-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kuulfgaWN_b0VWVnqC5t-3" target="kuulfgaWN_b0VWVnqC5t-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="149" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="kuulfgaWN_b0VWVnqC5t-4" target="kuulfgaWN_b0VWVnqC5t-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.33;entryY=0;rounded=0;" edge="1" parent="1" source="kuulfgaWN_b0VWVnqC5t-5" target="kuulfgaWN_b0VWVnqC5t-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="149" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0.78;entryY=1;rounded=0;" edge="1" parent="1" source="kuulfgaWN_b0VWVnqC5t-6" target="kuulfgaWN_b0VWVnqC5t-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="313" y="540" />
+              <mxPoint x="313" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kuulfgaWN_b0VWVnqC5t-13" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="171" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

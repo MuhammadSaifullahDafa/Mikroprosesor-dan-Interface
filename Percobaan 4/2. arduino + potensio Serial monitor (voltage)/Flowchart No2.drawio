@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Halaman-1" id="lvDZafKfs8niOpg1YgLF">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-1" value="Inisialisasi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="152" y="20" width="132" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-2" value="Pin Potensiometer pada A0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="92" y="118" width="251" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-3" value="Mulai Serial dengan Baud rate 9600" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="98" y="217" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-4" value="Loop" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="176" y="333" width="83" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-5" value="Baca Nilai Potensiometer dari A0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="465" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-6" value="Simpan Nilai ke variabel potValue" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="24" y="581" width="233" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-7" value="Tampilkan potValue di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="31" y="697" width="219" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-8" value="Jeda selama 100ms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="119" y="813" width="198" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="bQpqKU-BSfDx0pCg1sDw-1" target="bQpqKU-BSfDx0pCg1sDw-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="bQpqKU-BSfDx0pCg1sDw-2" target="bQpqKU-BSfDx0pCg1sDw-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="bQpqKU-BSfDx0pCg1sDw-3" target="bQpqKU-BSfDx0pCg1sDw-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.01;exitY=0.92;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="bQpqKU-BSfDx0pCg1sDw-4" target="bQpqKU-BSfDx0pCg1sDw-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="bQpqKU-BSfDx0pCg1sDw-5" target="bQpqKU-BSfDx0pCg1sDw-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="bQpqKU-BSfDx0pCg1sDw-6" target="bQpqKU-BSfDx0pCg1sDw-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.31;entryY=0.01;rounded=0;" edge="1" parent="1" source="bQpqKU-BSfDx0pCg1sDw-7" target="bQpqKU-BSfDx0pCg1sDw-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="788" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQpqKU-BSfDx0pCg1sDw-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0.01;entryX=1;entryY=0.92;rounded=0;" edge="1" parent="1" source="bQpqKU-BSfDx0pCg1sDw-8" target="bQpqKU-BSfDx0pCg1sDw-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="788" />
+              <mxPoint x="295" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
